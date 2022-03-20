@@ -35,7 +35,7 @@ function api_call_and_send() {
 
     let xhr = new XMLHttpRequest();
 
-    xhr.open('GET', '/article/xmlhttprequest/example/load');
+    xhr.open('GET', 'https://nbadata.samrawal.repl.co/api');
     xhr.setRequestHeader('Authorization','Bearer ' + key);
     xhr.send();
 
